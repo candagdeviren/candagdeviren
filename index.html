@@ -21,71 +21,90 @@
 
   <main>
     <section class="intro">
-  <h1 class="statement">Can Dağdeviren is a geomatics engineering student at Hacettepe
-    University. He works with LiDAR, orthophotos and web maps, and when he is not
-    in front of a screen, he is out on the water sailing.</h1>
-  <!-- buraya ne koyacağına karar verince: <img src="images/..." alt="..." class="intro-photo"> -->
-  <p class="intro-note">Here you will find his GIS and remote sensing work,
-    two web maps, and a little about life on a sailing boat.</p>
-</section>
+      <h1 class="statement">Can Dağdeviren is a geomatics engineering student at Hacettepe
+        University. He works with LiDAR, orthophotos and web maps, and when he is not
+        in front of a screen, he is out on the water sailing.</h1>
 
-   <section class="work">
-  <a href="projects.html" class="work-item">
-    <div>
-      <p class="label">2026–2027, Graduation project (in progress)</p>
-      <h3>Conjunction Data Message Analysis Portal</h3>
-    </div>
-    <img src="images/cdm.jpg" alt="">
-  </a>
-  <a href="projects.html" class="work-item">
-    <div>
-      <p class="label">2026, ELTEMTEK</p>
-      <h3>LiDAR Point Cloud Processing</h3>
-    </div>
-    <img src="images/lidar.jpg" alt="">
-  </a>
-  <a href="projects.html" class="work-item">
-    <div>
-      <p class="label">2026, ELTEMTEK</p>
-      <h3>Orthophoto Production</h3>
-    </div>
-    <img src="images/ortho.jpg" alt="">
-  </a>
-  <a href="projects.html" class="work-item">
-    <div>
-      <p class="label">2026, ELTEMTEK</p>
-      <h3>Transmission Line Violation Analysis</h3>
-    </div>
-    <img src="images/violation.jpg" alt="">
-  </a>
-</section>
+      <a href="#background" class="intro-avatar">
+        <img src="images/me.jpg" alt="Photo of Can Dağdeviren">
+        <span class="label">About me</span>
+      </a>
 
- <section class="sailing">
-  <h2>On the water</h2>
-  <div class="sailing-row">
-    <div class="photo-stack">
-      <img src="images/yelken-3.jpg" alt="Sailing" tabindex="0">
-      <img src="images/yelken-2.jpg" alt="Sailing" tabindex="0">
-      <img src="images/sail-1.jpg" alt="Sailing" tabindex="0">
-    </div>
-    <p>[Write a few sentences about your sailing: where you sail, your club or boat,
-       races you have taken part in.]</p>
-  </div>
-  <div class="waterline" aria-hidden="true">
-    <div class="boat">
-      <svg viewBox="0 0 60 60">
-        <path d="M30 6 L30 44 L12 44 Z" fill="#EAF4F4"/>
-        <path d="M33 12 L33 44 L48 44 Z" fill="#AFDDE5"/>
-        <path d="M8 47 H52 L46 54 H14 Z" fill="#964734"/>
-      </svg>
-    </div>
-  </div>
-</section>
+      <a href="#sailing" class="intro-sail" aria-label="Go to On the water">
+        <svg viewBox="0 0 240 200" aria-hidden="true">
+          <g fill="none" stroke="#AFDDE5" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round">
+            <line x1="120" y1="14" x2="120" y2="152"/>
+            <path d="M118 22 Q 92 92 66 148 L118 148 Z"/>
+            <path d="M123 34 L176 148 Q 150 142 125 148 Z"/>
+            <path d="M52 156 H192 Q 182 172 166 174 H76 Q 62 170 52 156 Z" stroke="#964734"/>
+            <path d="M20 184 q 10 -6 20 0 t 20 0 t 20 0 t 20 0 t 20 0 t 20 0 t 20 0 t 20 0 t 20 0 t 20 0" stroke="#0FA4AF"/>
+          </g>
+          <path d="M120 14 L134 18 L120 22 Z" fill="#964734"/>
+        </svg>
+      </a>
 
-    <section class="about">
+      <p class="intro-note">Here you will find his GIS and remote sensing work,
+        two web maps, and a little about life on a sailing boat.</p>
+    </section>
+
+    <section class="work">
+      <a href="projects.html" class="work-item">
+        <div>
+          <p class="label">2026–2027, Graduation project (in progress)</p>
+          <h3>Conjunction Data Message Analysis Portal</h3>
+        </div>
+        <img src="images/cdm.svg" alt="">
+      </a>
+      <a href="projects.html" class="work-item">
+        <div>
+          <p class="label">2026, ELTEMTEK</p>
+          <h3>LiDAR Point Cloud Processing</h3>
+        </div>
+        <img src="images/lidar.jpg" alt="">
+      </a>
+      <a href="projects.html" class="work-item">
+        <div>
+          <p class="label">2026, ELTEMTEK</p>
+          <h3>Orthophoto Production</h3>
+        </div>
+        <img src="images/ortho.jpg" alt="">
+      </a>
+      <a href="projects.html" class="work-item">
+        <div>
+          <p class="label">2026, ELTEMTEK</p>
+          <h3>Transmission Line Violation Analysis</h3>
+        </div>
+        <img src="images/violation.jpg" alt="">
+      </a>
+    </section>
+
+    <section class="sailing" id="sailing">
+      <h2>On the water</h2>
+      <div class="sailing-row">
+        <div class="photo-stack">
+          <img src="images/yelken-3.jpg" alt="Sailing" tabindex="0">
+          <img src="images/yelken-2.jpg" alt="Sailing" tabindex="0">
+          <img src="images/sail-1.jpg" alt="Sailing" tabindex="0">
+        </div>
+        <p>I started sailing as a hobby and carried it on at the Hacettepe University
+           Sailing Club. I regularly race in university sailing competitions, take
+           sailing courses to keep improving, and enjoy introducing new people to the sport.</p>
+      </div>
+      <div class="waterline" aria-hidden="true">
+        <div class="boat">
+          <svg viewBox="0 0 60 60">
+            <path d="M30 6 L30 44 L12 44 Z" fill="#EAF4F4"/>
+            <path d="M33 12 L33 44 L48 44 Z" fill="#AFDDE5"/>
+            <path d="M8 47 H52 L46 54 H14 Z" fill="#964734"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
       <img src="images/me.jpg" alt="Can Dağdeviren" class="about-photo">
       <div class="about-text">
-        <div>
+        <div id="background">
           <h2>Background</h2>
           <p>Between March and August 2026 I worked in the GIS unit at ELTEMTEK,
              processing LiDAR point clouds, producing orthophotos and analysing
